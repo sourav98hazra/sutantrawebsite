@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Sutantra19|TEAMS</title>
+	<link rel="icon" href="images/logo.png" sizes="16x16">
+
+	<link rel="stylesheet" href="C:\webframeworks\bootstrap\css\bootstrap.css" type="text/css" />
+
+	<script src="C:\webframeworks\bootstrap\js\jquery-3.3.1.min.js" type="text/javascript">
+	</script>
+
+	<script src="C:\webframeworks\bootstrap\js\bootstrap.js" type="text/javascript">
+	</script>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+	<!--start of the aos block-->
+	<link href="aos.css" rel="stylesheet" type="text/css">
+	<script src="aos.js"></script>	 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			window.addEventListener('load', AOS.refresh);
+			AOS.init({
+				duration:500,
+				once:true
+			});
+
+		});
+
+	</script>
+	<!--end of the aos block-->
+	
+	<style>
+	@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	body{
+		box-sizing: border-box;
+		font-family: 'Montserrat', sans-serif;
+		max-height: 100%;
+		background-color:rgba(0,0,0,.6);
+		overflow-x:hidden;
+	}
+.h1,h1,.h2,h2{text-shadow: 0 0 15px black;}
+	.navbar-default {
+		background-color:rgba(0, 0, 0, 0.6);
+		border-width: 0;
+		line-height:15;
+	}
+	.navbar-brand{
+		letter-spacing: 1px;
+	}
+	nav a{
+		color: white !important;
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: 1px;
+	}
+	.navbar-default .navbar-nav>li>a:hover {
+		background-color:transparent;
+		color: #face4f !important;
+		transform: scale(1.3);
+		transition: 0.5s;
+	}
+	.circle{
+		border-radius: 50%;
+		background-color: white;
+		height:150px;
+		width: 150px;
+	}
+	.circle h1{
+		line-height: 150px;
+		text-align: center;
+	}
+	.row{
+		margin-bottom: 20px;
+	}
+	/*blockm for flip*/
+.card
+{
+	transform-style: preserve-3d;
+	perspective: 250px;
+	transition: .5s;
+	width: 250px;height: 250px;
+}
+.card .front{
+	background: white;
+	border-radius: 50%;
+	width: 250px;height: 250px;
+	backface-visibility: hidden;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+	box-shadow: -5px 5px 15px 3px #333;
+	}
+	.card:hover .front{
+		transform: rotateX(180deg);
+
+	}
+.card .back{
+
+	background: white;
+	border-radius: 50%;
+	width:100%;height:100%;
+	backface-visibility: hidden;
+	transform: rotateX(180deg);
+	transition: 0.5s;
+	box-shadow: -5px 5px 15px 3px #333;
+	}
+	.card:hover .back{
+		transform: rotateX(0deg);
+		transform: translateY(-250px);
+	}
+	.card .details{
+		position:absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+
+	/*end of flip block*/
+	
+	/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+</style>
+</head>
+<body>
+	
+	<!--start of the navbar-->
+	<nav class="navbar navbar-default navbar-static-top" role="navigation" id="navbarid" style="border-radius: 0px;">
+		<div class="container">
+			<button type="button" data-toggle="collapse" data-target="#nid" class="btn navbar-toggle" id='collapseid'>
+				<span class="icon-bar bar1"></span>
+				<span class="icon-bar bar2"></span>
+				<span class="icon-bar bar3"></span>
+			</button>
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand" style="padding:1px ;"><img src="images/logo.png" alt="logo img" style="height:40px; width:120px;"></a>
+			</div>
+			<div id="nid" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" ><span class="glyphicon glyphicon-home"></span>Home</a></li>
+					<li><a href="workshops.html" ><span class="glyphicon glyphicon-paperclip"></span>Workshops</a></li>
+					<li><a href="team.html" ><span class="glyphicon glyphicon-th"></span>Team</a></li>
+					<li><a href="events.html" ><span class="glyphicon glyphicon-calendar"></span>Events</a></li>
+					<li><a href="guests.html" ><span class="glyphicon glyphicon-user"></span>Guests</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--end of the navbar-->
+
+
+	<!--start of the main heads block-->
+	<div class="container" id="heads">
+
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<div class="circle" style="margin-left: auto; margin-right: auto;"><h1>HEADS</h1></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 " >
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 text-right">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end of the heads block-->
+
+	<!--start of the teams blocks-->
+	<div class="container-fluid" id="team1" >
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="circle" style="margin-left: auto; margin-right: auto;" data-aos="fade-up"><h1>TEAM-1</h1></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 text-left">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 text-right">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="team2">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="circle" style="margin-left: auto; margin-right: auto;" data-aos="fade-up"><h1>TEAM-2</h1></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 text-left">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:
+							 white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 text-center">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color: white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4 text-right">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color: white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container-fluid" id="team3">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="circle" style="margin-left: auto; margin-right: auto;" data-aos="fade-up"><h1>TEAM-3</h1></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 text-left">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 text-right">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="team4">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="circle" style="margin-left: auto; margin-right: auto;" data-aos="fade-up"><h1>TEAM-4</h1></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 text-left">
+				<<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 text-right">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="team5">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="circle" style="margin-left: auto; margin-right: auto;" data-aos="fade-up"><h1>TEAM-5</h1></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6 text-left">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 text-right">
+				<div class="card" style="margin-left: auto; margin-right: auto;" data-aos="fade-up" >
+					<div class="front">
+						<img src="images/person.png" alt="" class="img-circle"  style="width:250px
+						;height:250px;">
+					</div>
+					<div class="back">
+						<div class="details">
+							<center>
+								<h2>name </h2>
+								<h3 class="lead"> work</h3>
+							<a href="#" target="_blank"><i class='fab fa-facebook-square btn btn-info' style='font-size:23px;'></i></a>
+							 <a href="#" target="_blank"><i class='fab fa-instagram btn btn-default' style='font-size:23px;color:white;background: linear-gradient(45deg,#F7C459,#F04F33,#8C16AB)'></i></a>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!--start  of the contact block-->
+			<div id="contacts" style="box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2); padding:30px; color:whited">
+				<div  class="container" data-aos="fade-right">
+					<h2 class="text-center well-sm" style="display:block;padding:32px 10px;">CONTACT</h2>
+					<div class="row">
+						<div class="col-sm-6" data-aos="fade-down-right">
+							<p class="lead"><span class="glyphicon glyphicon-user"></span> QWERTY AND</p>
+							<p class="lead"><span class="glyphicon glyphicon-log-in"></span> SUTANTRA 19</p>
+							<p class="lead"><span class="glyphicon glyphicon-map-marker"></span> GIT,IT</p>
+							<p class="lead"><span class="glyphicon glyphicon-phone"></span> +91-9999 9999 00</p>
+							<p class="lead"><span class="glyphicon glyphicon-envelope"></span> asdf@live.in</p>
+						</div>
+						<div class="col-sm-6" data-aos="fade-down-left">
+							<div class="mapouter">
+								<div class="gmap_canvas">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" id="gmap_canvas" src="https://maps.google.com/maps?q=gitam%20university&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end of the contacts block-->
+
+		<!--footer and chevron-up start-->
+		<footer  class="text-center container-fluid row" style="margin:0px;padding-top:10px; background:black; color: white;" data-aos="fade-up" data-aos-offset="50"
+     data-aos-easing="ease-in">
+			
+				<p class="lead">Copyright &copy; SUTANTRA-19,IT,GIT. All Rights Reserved |GITAM,Vizag,<abbr title="Andhra Pradesh" style="text-decoration: none;">AP</abbr>,INDIA  |  Contact Us: +91 9999 9999 00</p>
+				<a href="#nb"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		
+		</footer>
+		<!--footer and chevron-up end-->
+
+
+
+</body>

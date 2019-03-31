@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Sutantra,Sutantra-19,IT Fest,iTech,Gitam,Gitam Fest,Gitam It,Sutantra IT,Information-Technology fest,Sutantra IT,IT technical fest">
+	<meta name="description" content="SUTANTRA,The colossal technical fest.The pride of our department- the iTech fest, is a grand success every year. To continue with the legacy, we came up with another fest this year “Sutantra”, which means Information Technology in Sanskrit.                                             
+This time, our team is back with much more zest. We are organizing enticing workshops on artificial intelligence, deep learning, and career orientation among other fascinating events by our students. We plan to reach a wider audience this time through our social media pages and are set on beating our own record of over 1000 registrations.">
+	<meta name="author" content="Sourav Hazra">
+	<meta name="copyright" content="Sutantra19" >
+
+	<title>Sutantra-19|IT|Official</title>
+	<link rel="icon" href="images/logo.png" sizes="50x20">
+
+	<!--bootstrap setup-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<!--bootstrap setup end-->
+
+	<!--aos-->
+	<link href="aos.css" rel="stylesheet" type="text/css">
+	<script src="aos.js"></script>	 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			window.addEventListener('load', AOS.refresh);
+			AOS.init({
+				duration:600,
+				once:true
+			});
+
+		});
+
+	</script>
+	<!--aos-->
+	<!--fittext-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script>
+	$(document).ready(function() {
+  $('#resty').fitText(1.2, { minFontSize: '20px', maxFontSize: '60px'});
+  console.log('executed');
+});
+</script>
+	<!--fittext-->
+
+	<style type="text/css">
+
+	
+	@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Unica+One');
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+	/*button presseffect*/
+	.buttonpress {
+		padding: 15px 25px;
+		font-size:2.5vw;
+		text-align: center;
+		cursor: pointer;
+		outline: none;
+		color: #fff;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #999;
+		text-decoration: none;
+
+	}
+
+	.buttonpress:hover {transition: 0.3s}
+
+	.buttonpress:active {
+		box-shadow: 0 5px #666;
+		transform: translateY(4px);
+		text-decoration: none;
+		outline: none;
+	}
+	/*end buttonpresseffect*/
+	*{
+		box-sizing: border-box;
+		font-family: 'Montserrat', sans-serif;
+		max-width: 100%;
+	}
+	#prescreen{
+		position: fixed;
+		width:100%;
+		height:110vh;
+		background:#f7fbfb url('images/pre.gif') no-repeat center;
+		background-size:contain; 
+		z-index: 99999!important;
+
+	}
+	.navbar-default {
+		background-color:rgba(0, 0, 0, 0.6);
+		border-width: 0;
+		line-height:15;
+	}
+	.navbar-brand{
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: 1px;
+	}
+	nav a{
+		color: white !important;
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: 1px;
+	}
+	.navbar-default .navbar-nav>li>a:hover {
+		background-color:transparent;
+		color: #face4f !important;
+		transform: scale(1.3);
+		transition: 0.5s;
+	}
+	.container-fluid .jumbotron {
+		border-radius: 0;
+		background:	#FFFF66;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#it.container-fluid{padding: 0;}
+	h1.text-primary.text-center {
+		margin-bottom: 25px;
+		font-weight: 300;
+	}
+
+	.jumbotron p {
+		line-height: 1.6;
+		word-spacing: 1.4px;
+		text-align: justify;
+	}
+	#workshops{
+		background: url('images/workshops.png') no-repeat center center;
+		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+		background-size:fit;
+		background-attachment: fixed;
+	}
+	div#workshops {
+		padding:30px;
+	}
+	div#workshops h1{
+		margin-bottom:45px;
+		text-shadow: 0 0 15px black;
+	}
+	#workshops b{
+		color: white;
+	}
+	#about{
+		background: url('images/about.png') no-repeat center center;
+		background-size:cover;
+		background-attachment: fixed;
+		color: white;
+		font-weight:200;
+		box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+
+	}
+	#about h1{
+		margin-top:30px;
+		margin-bottom:40px;
+		line-height:1.3;
+	}
+	#about h2{
+		margin-bottom: 40px;
+		padding:20px;
+	}
+	#about p{
+		font-size: 22px;
+		padding: 10px;
+		margin-bottom: 25px;
+
+	}
+	
+	div#contacts
+	{
+		background-color: #fce205;
+		color:black;
+		padding-bottom: 30px;
+		font-weight: bold;
+	}
+	h1,h2
+	{
+		font-family: 'Josefin Sans', sans-serif !important;
+	}
+
+	/* width */
+	::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		background: #f1f1f1; 
+	}
+
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #face4f; 
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #555; 
+	}
+#download span{
+	margin:30px;
+	position:relative;
+	top:5px; 
+	animation:move 0.7s infinite linear;
+}
+@keyframes move{
+	0%{
+		top:15px; 
+		
+	}
+	100%
+	{
+		bottom:14`px; 
+	}
+}
+
+	@media (max-width: 768px)
+	 {
+		.navbar-default .navbar-nav>li>a:hover 
+		{
+			background-color:rgba(0, 0, 0, 0.765);
+			color: #face4f !important;
+			transform: translateX(8%);
+			transition: 0.5s;
+		}
+	}
+
+
+	</style>
+	<script type="text/javascript">
+		function hidefunc()
+		{
+			var ob=document.getElementById('prescreen');
+			ob.style.display='none';
+			//document.getElementById('navbarid').classList.add("navbar-sticky-top");
+		}
+	</script>
+	<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Mar 20, 2019 06:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="ecounter"
+  // language=HTML
+  document.getElementById("ecounter").innerHTML = days + "<b>:Days</b> " + hours + "<b>:Hours</b> "
+  + minutes + "<b>:Minutes</b> " + seconds + "<b>:Seconds</b> ";
+
+  document.getElementById("ecounter").style.fontFamily= "'Allerta Stencil', sans-serif";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+  	clearInterval(x);
+  	document.getElementById("ecounter").innerHTML = "SUTANTRA-2k19 <small>EVENT</small> SUCESSFULLY STARTED!";
+  }
+}, 1000);
+</script>
+
+
+</head>
+<body onload="hidefunc()" style="overflow-x:hidden!important;">
+
+	<div id="prescreen">
+	</div>
+
+
+	<div id="nb"></div>
+
+	<!--start of the navbar-->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbarid" style="border-radius: 0px; margin-bottom: -10px;">
+		<div class="container-fluid">
+			<button type="button" data-toggle="collapse" data-target="#nid" class="btn navbar-toggle" id='collapseid'>
+				<span class="icon-bar bar1"></span>
+				<span class="icon-bar bar2"></span>
+				<span class="icon-bar bar3"></span>
+			</button>
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand" style="padding:1px ;"><img src="images/logo.png" alt="logo img" style="height:40px; width:120px;"></a>
+			</div>
+			<div id="nid" class="collapse navbar-collapse">
+
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" ><span class="glyphicon glyphicon-home"></span>Home</a></li>
+					<li><a href="workshops.html" ><span class="glyphicon glyphicon-paperclip"></span>Workshops</a></li>
+					<li><a href="team.html" ><span class="glyphicon glyphicon-th"></span><i class="fi-torsos-all"></i>Team</a></li>
+					<li><a href="events.html" ><span class="glyphicon glyphicon-calendar"></span>Events</a></li>
+					<li><a href="guests.html" ><span class="glyphicon glyphicon-user"></span>Guests</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--end of the navbar-->
+	
+	<!--start of intro block-->
+	<div id="intro" style="margin:-5.8px;">
+		<video style="max-width:102%;height: auto; " autoplay muted preload="auto">
+			<source src="intro.mp4" type="video/mp4">
+			</video>
+		</div>
+		<!--end of the intro-->
+
+
+
+		<!-- timer-->
+		<div data-aos="flip-up" id="counter"  class="text-center" style="background-color:black; color:#face4f; font-size:2.5vw;" class="container-fluid col-sm-12">
+			<span style="font-family: 'Allerta Stencil', sans-serif!important;"><span class="glyphicon glyphicon-time"></span>EVENT BEGINS ON:</span><p id="ecounter" style="margin: 0;"></p>
+		</div>
+		<!--timer-->
+
+		<!--jumbotron for IT-->
+		<div id="it" class="container-fluid" >
+			<div class="jumbotron">
+				<h1 class="text-primary text-center" data-aos="fade-down" data-aos-easing="linear" id="resty">Information-Technology</h1>
+				<div class="row">
+					<div class="col-sm-9">
+						<p data-aos="fade-left" data-aos-easing="linear" id="resty"><strong>Information Technology</strong> and business are becoming inextricably interwoven. To meet the challenges in this arena, the Department was established in the year 2000 which offers UG, PG and Ph. D. programs.
+							With the eminent and highly experienced faculty at hand, the department is emerging in tune with the current technologies like Artificial Intelligence, Cloud Computing, IOT, Data Analytics etc.
+						Student Chapters of professional societies like CSI, IEEE and ISTE, aim at tapping the innate abilities and to showcase their talents. Students are also involved in social services like NSS, NCC, Rotract club, YGOI etc.</p>
+					</div>
+					<div class="col-sm-3" data-aos="fade-right" data-aos-easing="linear">
+						<div class="img-responsive">
+							<img class="img-rounded" src="images/it.jpg" alt="IT IMG..">
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<!--end of jumbotron it-->
+
+		<!--start of workshops block-->
+		<div class="container-fluid" id="workshops">
+			<h1 class="text-center" data-aos="zoom-in-up" id="resty"><b>WORKSHOPS</b></h1>
+			<div class="row text-center" data-aos="fade-up">
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/pngs/Lights Edited v1.png" alt="LIGHTS OUT" class="img-circle" height="250" width="240">
+					</div>
+					<h2 class="text-center" id="resty"><b>LIGHTS OUT</b></h2>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/pngs/vr.png" alt="vrarena" class="img-circle" height="250" width="240">
+					</div>
+					<h2 class="text-center" id="resty"><b>VR ARENA</b></h2>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/pngs/PUBG-POSTER.png" alt="pubg" class="img-circle" height="250" width="240">
+					</div>
+					<h2 class="text-center" id="resty"><b>PUBG TOURNAMENT</b></h2>
+				</div>
+			</div>
+
+			<div class="row text-center" data-aos="fade-up">
+				<div class="col-sm-6">
+					<div class="img-responsive">
+						<img src="images/pngs/codisthan 1.png" alt="codistaan" class="img-circle" height="250" width="240">
+					</div>
+					<h2 class="text-center" id="resty"><b>CODISTAAN</b></h2>
+				</div>
+
+
+				<div class="col-sm-6">
+					<div class="img-responsive">
+						<img src="images/pngs/Techlathon.png" alt="techlathon" class="img-circle" height="250" width="240">
+					</div>
+					<h2 class="text-center" id="resty"><b>TECHLATHON</b></h2>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-sm-12 text-center" data-aos="fade-up" data-aos-duration="1500">
+					<a href="events.html" class="btn btn-info btn-lg buttonpress " id="resty">
+						Know More
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--end of workshops block-->
+		<div  style="box-shadow: 0px 0px 20px 5px black; padding: 20px;position: relative;">
+			<blockquote style="margin:0; z-index:999;" id="resty">
+
+				"Technology is nothing,What's important is that you have a faith in people,that they are basically good and smart , and if you give them tools , they'll do wonderful things with them."
+				<footer class="text-right">STEVE JOBS</footer>
+
+			</blockquote>
+		</div>
+
+		<!--start of the sponsors block-->
+		<div class="container-fluid " id="sponsors" style="background:url('images/sponsorsbg.png') no-repeat center center; background-attachment: fixed; padding: 30px; background-size:cover;" >
+			<h1 class="text-center" style="margin:45px;" data-aos="zoom-out-up"><b id="resty">SPONSOR'S</b></h1>
+			<div class="row text-center" data-aos="zoom-out-right">
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/vlcclogo.png" alt="logo"  height="200" width="250">
+					</div>
+					<h1 class="text-center" id="resty">VLCC</h1>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/atomlogo.png" alt="logo"  height="200" width="250">
+					</div>
+					<h1 class="text-center" id="resty">ATOMS</h1>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/ablogo.jpg" alt="logo"  height="200" width="250">
+					</div>
+					<h1 class="text-center" id="resty">AUGMENTED BYTE</h1>
+				</div>
+				
+			</div>
+
+			<div class="row text-center" data-aos="zoom-out-left">
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/radiologo.png" alt="logo"  height="200" width="250">
+					</div>
+					<h1 class="text-center" id="resty">RADIOCITY</h1>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/gstudiologo.jpg" alt="logo"  height="200" width="250">
+					</div>
+					<h1 class="text-center" id="resty">GSTUDIO<br>(MEDIA PARTNER)</h1>
+				</div>
+
+				<div class="col-sm-4">
+					<div class="img-responsive">
+						<img src="images/ps7logo.jpeg" alt="logo"  height="200" width="250">
+					</div>
+					<h1 class="text-center" id="resty">PS7</h1>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<!--end of the sponsors block-->
+
+		<!--start of the video-->
+		<div class="container-fluid" id="videos" >
+			<div class="row" style="padding: 30px; margin-bottom: 30px; margin-top: 30px;">
+
+				<div class="col-md-12" data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000" data-aos-anchor-placement="top-bottom">
+					<div class="embed-responsive embed-responsive-16by9" style="width: 100%;height: auto;">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CSh_EgTS1Mk" frameborder="1" allow="autoplay; encrypted-media;" allowfullscreen ></iframe>
+					</div>
+				</div>
+				<div class="row" id="download">
+			<div class="col-sm-12 text-center" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
+				<h2 style="font-family: 'Josefin Sans', sans-serif;" id="resty">Click below to download all in one brochure of Sutantra 19 <span class="glyphicon glyphicon-arrow-down" ></span>  </h2>   <a href="docs/allinone.pdf"
+					download="Sutantra19allinone"><button class="btn btn-info btn-lg" style="font-family: 'Josefin Sans', sans-serif;" id="resty">Download</button></a></h2>
+			</div>
+		</div>
+			</div>
+		</div>
+		<!--end of the video block-->
+
+
+		<!--start of about block-->
+		<div class="bg-info" id="about" >
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-12" data-aos="flip-up">
+						<h1 id="resty"><b >ABOUT</b></h1>
+					</div>
+				</div>
+
+				<div class="row text-center">
+					<div class="col-sm-12" data-aos="flip-down">
+						<h2 id="resty">SUTANTRA-19, Department of Information Technology
+						GITAM Institute of Technology</h2>
+					</div>
+
+				</div>
+				<div class="row text-center" >
+					<div class="col-sm-6" data-aos="zoom-out-left">
+						<p id="resty">iTech observes the annual techno-management fest organized by the Department of Information Technology in GITAM (Deemed to be University), Visakhapatnam. iTech, in the year 2016 show cased the capabilities of the IT department. It has kick strated the "Programming Club".</p>
+					</div>
+					<div class="col-sm-6" data-aos="zoom-out-right">
+						<p id="resty">This year, iTech is back on March 5th and 6th, 2019, taking a new shape and a new name "SUTANTRA 19". A team of final and pre-final year students of the Department of IT have worked hard to shape up this fest. 450+ students of all the years of IT Department have collectively worked to make this fest happen.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end of the About block-->
+
+
+		<!--start  of the contact block-->
+		<div id="contacts" style="box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);">
+			<div  class="container" data-aos="fade-right">
+				<h2 class="text-center well-sm" style="display:block;padding:32px 10px;" id="resty" >CONTACT</h2>
+				<div class="row">
+					<div class="col-sm-6" data-aos="fade-down-right">
+						<b><p class="lead" id="resty"><span class="glyphicon glyphicon-user"></span> SRI HARSHA</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-log-in"></span> SUTANTRA 19</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-map-marker"></span> GIT,IT</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-phone"></span> +91-9100127982</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-envelope"></span>sutantra.info@gmail.com</p></b>
+					</div>
+					<div class="col-sm-6" data-aos="fade-down-left">
+						<div class="mapouter">
+							<div class="gmap_canvas">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" id="gmap_canvas" src="https://maps.google.com/maps?q=gitam%20university&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+									</iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end of the contacts block-->
+
+		<!--footer and chevron-up start-->
+		<footer  class="text-center container-fluid row" style="margin:0px;padding-top:10px; background:black; color: white;" data-aos="fade-up" data-aos-offset="50"
+		data-aos-easing="ease-in">
+
+		<p class="lead" id="resty">Copyright &copy; SUTANTRA-19,IT,GIT. All Rights Reserved |GITAM,Vizag,<abbr title="Andhra Pradesh" style="text-decoration: none;">AP</abbr>,INDIA  |  Contact Us: +91-9100127982</p>
+		<a href="#nb"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		
+	</footer>
+	<!--footer and chevron-up end-->
+
+
+</body>
+</html>

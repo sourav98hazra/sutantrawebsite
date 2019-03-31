@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Sutantra,Sutantra-19,IT Fest,iTech,Gitam,Gitam Fest,Gitam It,Sutantra IT,Information-Technology fest,Sutantra IT,IT technical fest">
+	<meta name="description" content="SUTANTRA,The colossal technical fest.The pride of our department- the iTech fest, is a grand success every year. To continue with the legacy, we came up with another fest this year “Sutantra”, which means Information Technology in Sanskrit.                                             
+This time, our team is back with much more zest. We are organizing enticing workshops on artificial intelligence, deep learning, and career orientation among other fascinating events by our students. We plan to reach a wider audience this time through our social media pages and are set on beating our own record of over 1000 registrations.">
+	<meta name="author" content="Sourav Hazra">
+	<meta name="copyright" content="Sutantra19" >
+
+	<title>Sutantra19 | Workshops</title>
+	<link rel="icon" href="images/logo.png" sizes="16x16">
+
+	<!--bootstrap setup-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<!--bootstrap setup end-->
+
+
+<!--aos-->
+	<link href="aos.css" rel="stylesheet" type="text/css">
+	<script src="aos.js"></script>	 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			window.addEventListener('load', AOS.refresh);
+			AOS.init({
+				duration:600,
+				once:true
+			});
+
+		});
+
+	</script>
+<!--aos-->
+	<!--fittext-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="jquery.fittext.js"></script>
+<script>
+	$(document).ready(function() {
+  $('#resty').fitText(1.2, { minFontSize: '20px', maxFontSize: '60px'});
+  console.log('executed');
+});
+</script>
+	<!--fittext-->
+
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Montserrat');
+	@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+	@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+	@import url('https://fonts.googleapis.com/css?family=Paytone+One');
+	body{
+		background: url('images/wsbg.png') no-repeat center;
+		background-attachment: fixed;
+		background-size:cover;
+		box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+		color:#E9E5E5;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.navbar-default {
+		background-color:rgba(0, 0, 0, 0.6);
+		border-width: 0;
+		line-height:15;
+	}
+	.navbar-brand{
+		
+		letter-spacing: 1px;
+	}
+	nav a{
+		color: white !important;
+		font-family: 'Josefin Sans', sans-serif;
+		letter-spacing: 1px;
+	}
+	.navbar-default .navbar-nav>li>a:hover {
+		background-color:transparent;
+		color: #face4f !important;
+		transform: scale(1.3);
+		transition: 0.5s;
+	}
+
+table{
+	font-size: 20px;
+	font-family: 'Comfortaa', cursive;
+}
+h1,h2
+		{
+			font-family: 'Paytone One', sans-serif;
+		}
+		#myModal label{
+			color: #face4f;
+		}
+		
+	/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+#download span{
+	margin:30px;
+	position:relative;
+	top:5px; 
+	animation:move 0.7s infinite linear;
+}
+@keyframes move{
+	0%{
+		right:10px; 
+		transition:0.0s; 
+	}
+	100%
+	{
+		left:10px; 
+		transition: 0.9s;
+	}
+}
+#workshop p.well-lg {
+    font-size:3rem;
+}
+	@media (max-width: 768px)
+	 {
+		.navbar-default .navbar-nav>li>a:hover 
+		{
+			background-color:rgba(0, 0, 0, 0.765);
+			color: #face4f !important;
+			transform: translateX(8%);
+			transition: 0.5s;
+		}
+	}
+	</style>
+	
+
+	<script type="text/javascript">
+		function setflag(n)
+		{
+			var flag=n;
+
+			if(flag==1&&getreg(1)==1)
+			{
+				document.getElementById('workshopname').value="Artificial Intelligence";
+				document.getElementById('workshopname2').value="Artificial Intelligence";
+			}
+			if(flag==2&&getreg(2)==2)
+			{
+				document.getElementById('workshopname').value="Career Orientation";
+					document.getElementById('workshopname2').value="Career Orientation";
+			}
+			if(flag==3&&getreg(3)==3)
+			{
+				document.getElementById('workshopname').value="Deep learning";
+					document.getElementById('workshopname2').value="Deep learning";
+			}
+		}
+	function getreg(m)
+	{
+		return m;
+	}
+
+function settext(num,t)
+{
+	if(num==1)
+	{
+		document.getElementById('f1').value=t.value;
+	}
+	if(num==2)
+	{
+		document.getElementById('f2').value=t.value;
+	}
+	if(num==3)
+	{
+		document.getElementById('f3').value=t.value;
+	}
+	if(num==4)
+	{
+		document.getElementById('f4').value=t.value;
+	}
+	if(num==5)
+	{
+		document.getElementById('f5').value=t.value;
+	}
+}
+	</script>
+
+</head>
+<body>
+	<div id="nb"></div>
+
+	<!--start of the navbar-->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbarid" style="border-radius: 0px; margin-bottom: -10px;">
+		<div class="container">
+			<button type="button" data-toggle="collapse" data-target="#nid" class="btn navbar-toggle" id='collapseid'>
+				<span class="icon-bar bar1"></span>
+				<span class="icon-bar bar2"></span>
+				<span class="icon-bar bar3"></span>
+			</button>
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand" style="padding:1px ;"><img src="images/logo.png" alt="logo img" style="height:40px; width:120px;"></a>
+			</div>
+			<div id="nid" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html" ><span class="glyphicon glyphicon-home"></span>Home</a></li>
+					<li><a href="workshops.html" ><span class="glyphicon glyphicon-paperclip"></span>Workshops</a></li>
+					<li><a href="team.html" ><span class="glyphicon glyphicon-th"></span>Team</a></li>
+					<li><a href="events.html" ><span class="glyphicon glyphicon-calendar"></span>Events</a></li>
+					<li><a href="guests.html" ><span class="glyphicon glyphicon-user"></span>Guests</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--end of the navbar-->
+
+	<div class="container" style="margin-top:50px;">
+
+		<div class="row text-center">
+			<div class="col-sm-12">
+				<h1 style="font-family: 'Josefin Sans', sans-serif" id="resty">WORKSHOP AT A GLANCE</h1>
+			</div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-12">
+				<h2  id="resty">WORKSHOPS SCHEDULE</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="table-responsive">
+				<table class="table" style="padding:20px;">
+					<thead>
+						<tr>
+							<th>Workshops</th>
+							<th>Venue</th>
+							<th>Date</th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						
+						<tr data-href="#w1" onclick="setflag(1);">
+							<td>ARTIFICIAL INTELLIGENCE</td>
+							<td>KRC,GITAM-VIZAG</td>
+							<td>MARCH-19th,2019</td>
+							<td><button class="btn btn-sm btn-primary modalbtn" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" onclick="getreg(1);">Register</button></td>
+							<td><button class="btn btn-sm btn-primary " type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" onclick="getreg(1);">Feedback</button></td>
+						</tr>
+					
+					
+						<tr data-href="#w2" onclick="setflag(2);">
+							<td>CAREER ORIENTATION</td>
+							<td>KRC,GITAM-VIZAG</td>
+							<td>MARCH-19th,2019</td>
+							<td><button class="btn btn-sm btn-primary modalbtn" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" onclick="getreg(2);">Register</button></td>
+							<td><button class="btn btn-sm btn-primary " type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" onclick="getreg(2);">Feedback</button></td>
+						</tr>
+			
+					
+						<tr data-href="#w3" onclick="setflag(3);">
+							<td>DEEP LEARNING</td>
+							<td>KRC,GITAM</td>
+							<td>MARCH-19th,2019</td>
+							<td><button class="btn btn-sm btn-primary modalbtn" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" onclick="getreg(3);">Register</button></td>
+							<td><button class="btn btn-sm btn-primary " type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal2" onclick="getreg(3);">Feedback</button></td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 style="color:gray;"><span class="glyphicon glyphicon-lock"></span>Enter Details:</h4>
+					</div>
+					<div class="modal-body" style="padding:40px 50px;">
+						<form id="MyForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeYcR_eVPDpE0LL8LkBAkiIZKehgA-PR_6FmJ3Q-oPJLuM4ug/formResponse"  target="_self" method="POST">
+							<div class="form-group">
+								<label for="workshopname"><span class="glyphicon glyphicon-user"></span>WORKSHOP NAME</label>
+								<input type="text" class="form-control" id="workshopname2" value=" " readonly name="entry.583907074" >
+							</div> 
+							<div class="form-group">
+								<label for="fullname"><span class="glyphicon glyphicon-user"></span> Fullname</label>
+								<input type="text" class="form-control" id="fullname" placeholder="Enter Fullname" name="entry.1578615030">
+							</div>
+							<div class="form-group">
+								<label for="rno"><span class="glyphicon glyphicon-eye-open"></span>SUTANTRA PASS-ID</label>
+								<input type="number" class="form-control" id="rollno" placeholder="Enter pass S.NO" name="entry.1202136644">
+							</div>
+							<div class="form-group">
+								<label for="Branch"><span class="glyphicon glyphicon-plus"></span>College</label>
+								<input type="text" class="form-control" id="branch" placeholder="Enter College name" name="entry.465248872">
+							</div>
+
+							<div class="form-group">
+								<label for="email"><span class="glyphicon glyphicon-email"></span>Email-id</label>
+								<input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="entry.2036314217">
+							</div>
+
+							<div class="form-group">
+								<label for="contact"><span class="glyphicon glyphicon-phone"></span>Contact.no</label>
+								<input type="number" class="form-control" id="conno" placeholder="Enter Contactnumber" name="entry.1159056494">
+							</div>
+
+							<button type="submit" class="btn btn-warning btn-block"><span class="glyphicon glyphicon-off"></span>Submit</button>
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--end of the modal-->
+
+		 <!-- Modal content-->
+		 <!-- Modal -->
+  <div class="modal fade" id="myModal2" role="dialog" style="color: black;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">FEEDBACK FORM</h4>
+        </div>
+        <div class="modal-body">
+        	
+         <form action="https://docs.google.com/forms/d/e/1FAIpQLSf5YXvxuh3UxZFIL1EE5uy9HbSArVrIqFvr5YAWBEKRJ6IGlw/formResponse" method="POST" target="_blank">
+         	<div class="form-group">
+				<label for="workshopname"><span class="glyphicon glyphicon-user"></span>WORKSHOP NAME</label>
+				<input type="text" class="form-control" id="workshopname" value="" readonly name="entry.616947096">
+			</div>
+<label>How was the workshop?</label></br>
+Outsanding: <input type="radio" name="myRadio1" value="Outstanding"  class="radio-inline" onclick="settext(1,this);" />&nbsp;&nbsp;
+ Good:<input type="radio" name="myRadio1" value="Good"  class="radio-inline" onclick="settext(1,this)";/>&nbsp;&nbsp;
+ Average:<input type="radio" name="myRadio1" value="Average" class="radio-inline" onclick="settext(1,this);"/>&nbsp;&nbsp;
+ Poor:<input type="radio" name="myRadio1" value="Poor" class="radio-inline" onclick="settext(1,this);"/>&nbsp;&nbsp;
+ <input type="text" id="f1" class="form-control" readonly name="entry.732158674" style="display: none;">
+<br/><br/>
+<label>How Informative and useful was the workshop?</label></br>
+Outsanding: <input type="radio" name="myRadio2" value="Outstanding" class="radio-inline"  onclick="settext(2,this);"/>&nbsp;&nbsp;
+ Good:<input type="radio" name="myRadio2" value="Good" class="radio-inline"  onclick="settext(2,this);"/>&nbsp;&nbsp;
+ Average:<input type="radio" name="myRadio2" value="Average" class="radio-inline"  onclick="settext(2,this);"/>&nbsp;&nbsp;
+ Poor:<input type="radio" name="myRadio2" value="Poor" class="radio-inline"  onclick="settext(2,this);"/>&nbsp;&nbsp;
+ <input type="text" id="f2" class="form-control" readonly name="entry.239246512" style="display: none;">
+<br/><br/>
+<label>How engaging was the workshop?</label></br>
+Outsanding: <input type="radio" name="myRadio3" value="Outstanding" class="radio-inline"  onclick="settext(3,this);"/>&nbsp;&nbsp;
+ Good:<input type="radio" name="myRadio3" value="Good" class="radio-inline"  onclick="settext(3,this);"/>&nbsp;&nbsp;
+ Average:<input type="radio" name="myRadio3" value="Average" class="radio-inline"  onclick="settext(3,this);"/>&nbsp;&nbsp;
+ Poor:<input type="radio" name="myRadio3" value="Poor" class="radio-inline"  onclick="settext(3,this);"/>&nbsp;&nbsp;
+ <input type="text" id="f3" class="form-control" readonly name="entry.800826953" style="display: none;">
+<br/><br/>
+<label>How motivated are you after the session?</label></br>
+Outsanding: <input type="radio" name="myRadio4" value="Outstanding" class="radio-inline"  onclick="settext(4,this);"/>&nbsp;&nbsp;
+ Good:<input type="radio" name="myRadio4" value="Good" class="radio-inline"  onclick="settext(4,this);"/>&nbsp;&nbsp;
+ Average:<input type="radio" name="myRadio4" value="Average" class="radio-inline"  onclick="settext(4,this);"/>&nbsp;&nbsp;
+ Poor:<input type="radio" name="myRadio4" value="Poor" class="radio-inline"  onclick="settext(4,this);"/>&nbsp;&nbsp;
+ <input type="text" id="f4" class="form-control" readonly name="entry.1949102435" style="display: none;">
+<br/><br/>
+
+<label>How time and money worthy was the session?</label></br>
+Outsanding: <input type="radio" name="myRadio5" value="Outstanding" class="radio-inline"  onclick="settext(5,this);"/>&nbsp;&nbsp;
+ Good:<input type="radio" name="myRadio5" value="Good" class="radio-inline"  onclick="settext(5,this);"/>&nbsp;&nbsp;
+ Average:<input type="radio" name="myRadio5" value="Average" class="radio-inline"  onclick="settext(5,this);"/>&nbsp;&nbsp;
+ Poor:<input type="radio" name="myRadio5" value="Poor" class="radio-inline"  onclick="settext(5,this);"/>&nbsp;&nbsp;
+ <input type="text" id="f5" class="form-control" readonly name="entry.1073072961" style="display: none;">
+<br/><br/>
+
+<label for="comments3" >COMMENTS:</label><br />
+<span><textarea  id="comments3" class="form-control" name="entry.1866948208"></textarea></span><br /><br />
+
+<span><input type="reset" class="btn btn-primary" value="RESET" /></span>&nbsp;&nbsp;
+<input type="submit" class="btn btn-primary" />
+</form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+  </div>
+</div>
+
+      
+		
+		
+
+
+	</div>
+
+
+	<!--details block yet to be filled-->
+	<div class="container-fluid text-center" id="workshop" >
+		<div class="row">
+			<div class="col-sm-12" id="w1"><h1 id="resty" data-aos="flip-up" style="padding:50px;text-shadow: -6px 6px #040b58;">ARTIFICIAL INTELLIGENCE (AI)</h1></div>
+			<div class="col-sm-6" ><p class="well-lg text-left" id="resty" data-aos="zoom-in">Artificial intelligence is the science of making machine do things that would require intelligence if done by men. It is an area of computer science that emphasizes the creation of intelligent machines that work and react like humans. Artificial intelligence must have access to objects,categories,properties and relations between all of them implement knowledge engineerng.Some of the activities computers with artificial intelligence are designed for include: speech recognition,learning,planning,problem solving.</p></div>
+			<div class="col-sm-6">
+				<div class="img-responsive">
+					<img src="images/workshop/ai.png" alt="Ai" style="width:70%;height:75%;     box-shadow: 0 0 8px 3px #fbfbfb;">
+				</div>
+			</div>
+		</div>
+		<div class="row" >
+			<div class="col-sm-12" id="w2"><h1 id="resty" data-aos="flip-up" style="padding:50px;text-shadow: -6px 6px #414141;">CAREER ORIENTATION</h1></div>
+			<div class="col-sm-6">
+				<div class="img-responsive">
+					<img src="images/workshop/career.png" alt="Ai" style="width:70%;height:75%;box-shadow: 0 0 8px 3px #fbfbfb; ">
+				</div>
+			</div>
+			<div class="col-sm-6" ><p class="well-lg text-right" id="resty" data-aos="zoom-in">As we say nothing succeeds like success. And career guidance is very essential for success. If you want to see your career moving in a right direction then career guidance is of utmost importance. Everyone wants to be successful but they do not get the right guidance to make right decision at right time. If you have a pre-planned guidance for your career then it can make a lot of difference. So attend the workshop on career orientation.</p></div>
+		</div>
+		<div class="row" >
+			<div class="col-sm-12" id="w3"><h1 id="resty" data-aos="flip-up" style="padding:50px; text-shadow: -6px 3px 0px #697ca7;">DEEP LEARNING</h1></div>
+
+			<div class="col-sm-6"><p class="well-lg text-left" id="resty" data-aos="zoom-in">Deep learning is a sub-field of machine learning concerned with algorithms inspired by structure and function of the brain called artificial neural networks. It encompasses machine learning, where machines can learn by experience and acquire skills without human involvement. It’s similar to how we learn from experience, the deep learning algorithm would perform a task repeatedly, each time tweaking it a little to improve the outcome.</p></div>
+			<div class="col-sm-6">
+				<div class="img-responsive">
+					<img src="images/workshop/deeplearn.png" alt="Ai" style="width:70%;height:75%;     box-shadow: 0 0 8px 3px #fbfbfb;">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--details block end-->
+
+
+
+	<!--start  of the contact block-->
+			<div id="contacts" style="box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2); padding:30px; margin-top:50px; ">
+				<div  class="container" data-aos="fade-right">
+					<h2 class="text-center well-sm" style="display:block;padding:32px 10px;" id="resty">CONTACT</h2>
+					<div class="row">
+						<div class="col-sm-6" data-aos="fade-down-right">
+							<p class="lead" id="resty"><span class="glyphicon glyphicon-user"></span> SRI HARSHA</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-log-in"></span> SUTANTRA 19</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-map-marker"></span> GIT,IT</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-phone"></span> +91-9100127982</p>
+						<p class="lead" id="resty"><span class="glyphicon glyphicon-envelope"></span>sutantra.info@gmail.com</p>
+						</div>
+						<div class="col-sm-6" data-aos="fade-down-left">
+							<div class="mapouter">
+								<div class="gmap_canvas">
+									<div class="embed-responsive embed-responsive-16by9">
+										<iframe class="embed-responsive-item" id="gmap_canvas" src="https://maps.google.com/maps?q=gitam%20university&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--end of the contacts block-->
+
+		<!--footer and chevron-up start-->
+		<footer  class="text-center container-fluid row" style="margin:0px;padding-top:10px; background:black; color: white;" data-aos="fade-up" data-aos-offset="70"
+     data-aos-easing="ease-in">
+			
+				<p class="lead" id="resty">Copyright &copy; SUTANTRA-19,IT,GIT. All Rights Reserved |GITAM,Vizag,<abbr title="Andhra Pradesh" style="text-decoration: none;">AP</abbr>,INDIA  |  Contact Us:+91-9100127982</p>
+				<a href="#nb"><span class="glyphicon glyphicon-chevron-up"></span></a>
+		
+		</footer>
+		<!--footer and chevron-up end-->
+
+
+	</body>
